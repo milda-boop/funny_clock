@@ -4,6 +4,7 @@ import framebuf
 import utime
 import os
 import math
+import random
 # ============ Start of Drive Code ================
 BL = 13  # Pins used for display screen
 DC = 8
@@ -442,9 +443,9 @@ while(running):
                 LCD.line(120,120,xm+120,ym+120,colour(0,0,255))
                 LCD.line(120,120,xh+120,yh+120,colour(0,255,0))
                 LCD.show()
-        LCD.line(120,120,xm+120,ym+120,colour(40,40,40))
-        LCD.line(120,120,xh+120,yh+120,colour(0,255,0))
-    LCD.line(120,120,xh+120,yh+120,colour(40,40,40))
+            LCD.line(120,120,xm+120,ym+120,colour(40,40,40))
+            LCD.line(120,120,xh+120,yh+120,colour(0,255,0))
+        LCD.line(120,120,xh+120,yh+120,colour(40,40,40))
     
         
     # x= x*cos(360/60) + y*sin(360/60)   y = -xsin() + ycos()
