@@ -15,3 +15,6 @@ To develop this project further, I would have retrieved the current time from th
 
 # Links
 [Video of the working application](https://youtu.be/LDhBbMJojkI)
+
+![20240516_145923 1](https://github.com/milda-boop/funny_clock/assets/63972706/15deb313-c915-4033-99f8-9e09512efb65)
+
