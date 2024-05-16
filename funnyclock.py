@@ -438,7 +438,7 @@ while(running):
                 y = round(-60*math.cos(-6*s*0.01745329))
                 LCD.line(120,120,x+120,y+120,colour(255,0,0))
                 LCD.show()
-                utime.sleep(secondl[s])
+                utime.sleep(secondl[s]-0.15)
                 LCD.line(120,120,x+120,y+120,colour(40,40,40))
                 LCD.line(120,120,xm+120,ym+120,colour(0,0,255))
                 LCD.line(120,120,xh+120,yh+120,colour(0,255,0))
